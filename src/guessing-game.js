@@ -12,7 +12,7 @@ class GuessingGame {
     }
 
     guess() {
-
+    	return this.mid;
     }
 
     lower() {
@@ -20,6 +20,7 @@ class GuessingGame {
     }
 
     greater() {
+
     }
 }
 
