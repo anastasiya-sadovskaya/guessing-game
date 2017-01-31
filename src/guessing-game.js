@@ -1,5 +1,9 @@
 class GuessingGame {
-    constructor() {}
+    constructor() {
+    	this.min = null;
+    	this.max = null;
+    	this.mid = null;
+    }
 
     setRange(min, max) {
 
