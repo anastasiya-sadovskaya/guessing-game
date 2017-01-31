@@ -21,7 +21,8 @@ class GuessingGame {
     }
 
     greater() {
-
+    	this.min = this.mid;
+        this.mid = Math.round((this.max + this.min) / 2);
     }
 }
 
