@@ -6,7 +6,9 @@ class GuessingGame {
     }
 
     setRange(min, max) {
-
+    	this.min = min;
+    	this.max = max;
+    	this.mid = Math.round((max + min) / 2);
     }
 
     guess() {
@@ -18,7 +20,6 @@ class GuessingGame {
     }
 
     greater() {
-
     }
 }
 
